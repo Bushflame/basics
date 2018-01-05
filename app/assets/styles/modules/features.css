@@ -1,0 +1,44 @@
+.features {
+	display:flex;
+	flex-wrap:wrap;
+	justify-content: space-around;
+	margin:auto;
+	max-width:60rem;
+	&__article {
+		display:flex;
+		flex-direction:column;
+		flex-basis:0 1 100%;
+		margin:auto;
+		margin-bottom:1rem;
+		
+		&__title {
+			color: $blueGrey7;
+			font-size:2.2rem;
+			line-height:1;				
+			margin:1rem 0 0;
+			text-align:center;
+		}
+		&__tagline {
+			color: $orange6;
+			font-size:1.6rem;
+			line-height:1;			
+			margin:0;
+			text-align:center;
+		}
+		
+		&__img {
+			background: pink;padding:1rem;
+			margin:0 auto;
+			width:6rem;
+		}
+		@mixin at780 {
+			width:65%;
+		}
+
+		@mixin at900 {
+			flex-direction:row;
+			flex-wrap:nowrap;
+			width:40%;
+		}
+	}
+}

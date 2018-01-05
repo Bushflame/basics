@@ -23,7 +23,7 @@
 		</nav>
 	</div>
 
-	<header role='banner' class='banner page-section' id='home' data-matching-link='#home-link'>
+	<header role='banner' class='banner page-section page-section__no-margin' id='home' data-matching-link='#home-link'>
 		<picture class='banner__img'>
 			<source srcset='assets/img/seeds.jpg'  media='(min-width: 900px)'/>
 			<source srcset='assets/img/seeds-md.jpg' media='(min-width: 600px)'/>
@@ -67,16 +67,62 @@
 					<img src='assets/img/seedling.jpg'/>
 				</div>
 				<div role='presentation' class='row__8'>
-					<div class='col__header'>
-						<h2>column title</h2>
-						<p class='col__header__tagline'>column tagline</p
+					<header class='col__header'>
+						<h2 class='col__header__title'>column title</h2>
+						<p class='col__header__tagline'>column tagline</p>
+					</header>
 						<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
-					</div>
 				</div>
 			</div>			
 		</section>
-		<section style='height:20rem' class='page-section' id='section-3' data-matching-link='#sect-3-link'></section>
-		<section style='height:30rem' class='page-section' id='section-4' data-matching-link='#sect-4-link'></section>		
+		<section class='page-section page-section__article' id='section-3' data-matching-link='#sect-3-link'>
+			<article class='article'>
+					<header class='article__header'>
+						<h2 class='article__header__title'>Article title</h2>
+						<p class='article__header__tagline'>Article tagline</p>
+					</header>
+						<div role='presentation'>
+							<img alt='' src='assets/img/jpg'/>
+							<p class='article__body'>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+						</div>					
+			</article>
+		</section>
+		<section style='height:30rem' class='page-section' id='section-4' data-matching-link='#sect-4-link'>
+			<div role='presentation' class='features'>
+				<article class='features__article'>
+					<img class='features__article__img' src='assets/img/jpg'/>
+					<div role='features__body'>
+						<h3 class='features__title'>Features Title</h3>
+						<p class='features__tagline'>Features Tagline</p>
+						<p class='features__text'>It is a long established fact that a reader will be distracted by the readable content of a page </p>
+					</div>						
+				</article>
+				<article class='features__article'>
+					<img class='features__article__img' src='assets/img/jpg'/>
+					<div role='features__body'>
+						<h3 class='features__title'>Features Title</h3>
+						<p class='features__tagline'>Features Tagline</p>
+						<p class='features__text'>It is a long established fact that a reader will be distracted by the readable content of a page </p>
+					</div>						
+				</article>
+				<article class='features__article'>
+					<img class='features__article__img' src='assets/img/jpg'/>
+					<div role='features__body'>
+						<h3 class='features__article__title'>Features Title</h3>
+						<p class='features__article__tagline'>Features Tagline</p>
+						<p class='features__text'>It is a long established fact that a reader will be distracted by the readable content of a page </p>
+					</div>						
+				</article>
+				<article class='features__article'>
+					<img class='features__article__img' src='assets/img/jpg'/>
+					<div role='features__body'>
+						<h3 class='features__title'>Features Title</h3>
+						<p class='features__tagline'>Features Tagline</p>
+						<p class='features__text'>It is a long established fact that a reader will be distracted by the readable content of a page </p>
+					</div>						
+				</article>				
+			</div>
+		</section>		
 		<section style='height:30rem' class='page-section' id='section-5' data-matching-link='#sect-5-link'></section>	
 <script src='temp/scripts/App.js'></script>
 </body>

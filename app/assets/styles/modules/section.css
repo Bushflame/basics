@@ -1,26 +1,29 @@
 .page-section{
 	
-	margin:auto;
+	margin:0 auto 1.2rem;
 	padding-left: 1rem;
 	padding-right: 1rem;
+	
+	&__article {
+		background:$blueGrey8;
+		padding:2rem 1rem;
+	}
+	
   @mixin at780 {
+		margin-bottom:4rem;		
 		padding-left: 0;
-		padding-right: 0;		
+		padding-right: 0;	
+		
 	}	
 	&__bg {
 		background: url('/assets/img/scenic.jpg')top center no-repeat;
 		background-size:cover;
 		padding-bottom:3rem;
 	}
-	
-
-	&--b-margin {
-		margin-bottom:1.2rem;
-		
-		@mixin at780 {
-			margin-bottom:4rem;		
-		}				
+	&__no-margin {
+		margin:0;
 	}
+
 }
 
 

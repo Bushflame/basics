@@ -1,0 +1,31 @@
+.article {
+	margin:auto;
+	max-width:40rem;	
+
+	&__header {
+		text-align:center;
+
+		&__title {
+			color:$orange8;
+			font-size:2.2rem;
+			margin:0;
+			@mixin at780{
+					font-size:3.6rem;
+				}
+		}
+		&__tagline {
+			color:$blueGrey2;
+			font-size:2.2rem;
+			margin:0;
+		@mixin at780 {
+			font-size:1.5rem;
+		}
+		
+		}
+	}
+	
+	
+	
+	
+	
+}
