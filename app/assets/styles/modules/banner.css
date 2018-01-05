@@ -1,0 +1,25 @@
+.banner {
+	display:block;	
+	position:relative;
+	width:100%;	
+	&__img {
+		width:100%;
+		border-bottom:.4rem solid $blueGrey6;
+	} 
+	
+	&__textWrapper {
+		padding:1rem;
+		position:absolute;
+		top:40%;
+		transform:translateY(-50%);
+		text-align:center;	
+		width:100%;		
+		z-index:2;
+
+	&__description {
+		color:red;		
+		font-size:1.6rem;
+		margin:0;
+	}
+}
+}
