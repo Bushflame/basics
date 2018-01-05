@@ -101,7 +101,6 @@
 	}
 	.mainNav__ul >li{
 		display:block;
-		font-size:1rem;
 		padding:.5rem 2rem;		
 	}
 	@media (min-width:780px){
@@ -111,9 +110,11 @@
 	}
 	.mainNav a {
 		color:#fff;
+		font-size:1.2rem;
+		text-decoration:none;
 	}
 	.mainNav a.is-current-link {
-			color:red;background:pink;
+			color:#FB8C00;
 		}
 	.banner {
 	display:block;	
