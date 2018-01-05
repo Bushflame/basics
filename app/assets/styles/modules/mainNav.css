@@ -1,0 +1,74 @@
+.navWrap {
+	min-height:3rem;
+	margin:0;
+	position:fixed;	
+	transition:background 0.5s ease-in;
+	width:100%;	
+	z-index:2;
+	
+	&--expanded {
+		background:rgba($blueGrey8, 0.8);
+	}
+	
+	@mixin at780 {
+		background:rgba($blueGrey8, 0.7);
+		display:block;
+		&--dark {
+			background:$blueGrey7;
+		}
+	}
+			&__menuIcon {			
+			color:#fff;
+			height:;
+			position:fixed;
+			right:10px;
+			top:10px;
+			width:;
+			z-index:9;
+	@mixin at780 {
+		display:none;
+	}			
+		}
+}
+.mainNav {
+	margin:0 1rem 0 0;
+	max-width:66rem;
+	opacity:0;
+	position:;
+	transform:scale(1.2);
+	transition: all .5s ease-out;	
+	z-index:-1;
+	@mixin at780 {
+	opacity:1;
+	transform:scale(1);	
+	}		
+		&--visible {
+		opacity:1;
+		text-align:left;
+		float:left;
+		transform:scale(1);
+		z-index: 2;
+	}
+	&__ul {
+
+		float:right;
+		list-style:none;
+		margin:0 auto;
+
+	}
+	
+	&__ul >li{
+		display:block;
+		font-size:1rem;
+		padding:.5rem 2rem;
+		
+		@mixin at780 {
+		display:inline-block;
+		}		
+	}
+	a {
+		color:#fff;	
+			&.is-current-link {
+			color:red;background:pink;
+		}
+	}

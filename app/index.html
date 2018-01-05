@@ -1,0 +1,83 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<title>title</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<meta name="robots" content="index,follow" />
+	<link rel="stylesheet" type="text/css" href="temp/styles/styles.css" />
+</head>
+
+<body>
+	<div role='presentation' class='navWrap'>
+	<div class="navWrap__menuIcon">Menu</div>		
+		<nav class='mainNav'>
+			<ul class='mainNav__ul'>
+				<li><a href='#home' id='home-link'>Home</a></li>			
+				<li><a href='#section-1' id='sect-1-link'>section 1</a></li>
+				<li><a href='#section-2' id='sect-2-link'>section 2</a></li>
+				<li><a href='#section-3' id='sect-3-link'>section 3</a></li>
+				<li><a href='#section-4' id='sect-4-link'>section 4</a></li>
+			</ul>		
+		</nav>
+	</div>
+
+	<header role='banner' class='banner page-section' id='home' data-matching-link='#home-link'>
+		<picture class='banner__img'>
+			<source srcset='assets/img/seeds.jpg'  media='(min-width: 900px)'/>
+			<source srcset='assets/img/seeds-md.jpg' media='(min-width: 600px)'/>
+			<img class='banner__img' alt='' src='assets/img/seeds-sm.jpg'/>			
+		</picture>
+		
+		<div role='presentation' class='banner__textWrapper'>
+			<h1 class='title banner__title'> Headings</h1>
+			<p class='tagline banner__tagline'>some stuff</p>
+			<p class='banner__description'>A brief description of what's to come</p>
+			<button class='btn banner__btn'>Contact</button>
+		</div>
+	</header>
+		<section id='section-1' data-matching-link='#sect-1-link' class='page-section page-section__bg page-section--b-margin'>
+			<header class='header topSection__header'>
+			<h1 class='topSection__title'>TOP SECTION TITLE</h1> 
+			<p class='topSection__tagline'>Top Section Tagline</p>
+			</header>
+			<div role='presentation' class='cards'>
+				<article class='card scrollReveal'>
+					<img class='card__img' alt='' src='assets/img/flower-1.jpg'/>
+					<h3 class='card__title'>Card Title</h3>
+					<p class='card__text'>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal</p>
+				</article>
+				<article class='card scrollReveal'>
+					<img class='card__img' alt='' src='assets/img/flower-2.jpg'/>
+					<h3 class='card__title'>Card Title</h3>
+					<p class='card__text'>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal The point of using Lorem Ipsum is that it has a more-or-less normal</p>
+				</article>				
+				<article class='card scrollReveal'>
+					<img class='card__img' alt='' src='assets/img/flower-3.jpg'/>
+					<h3 class='card__title'>Card Title</h3>
+					<p class='card__text'>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal</p>
+				</article>				
+			</div>
+		</section>
+
+		<section class='page-section'  id='section-2' data-matching-link='#sect-2-link' >
+			<div role='presentation' class='row row--narrow row--gutters'>
+				<div role='presentation' class='row__4'>
+					<img src='assets/img/seedling.jpg'/>
+				</div>
+				<div role='presentation' class='row__8'>
+					<div class='col__header'>
+						<h2>column title</h2>
+						<p class='col__header__tagline'>column tagline</p
+						<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+					</div>
+				</div>
+			</div>			
+		</section>
+		<section style='height:20rem' class='page-section' id='section-3' data-matching-link='#sect-3-link'></section>
+		<section style='height:30rem' class='page-section' id='section-4' data-matching-link='#sect-4-link'></section>		
+		<section style='height:30rem' class='page-section' id='section-5' data-matching-link='#sect-5-link'></section>	
+<script src='/temp/scripts/App.js'></script>
+</body>
+</html>

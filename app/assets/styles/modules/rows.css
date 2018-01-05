@@ -1,0 +1,40 @@
+.row {
+	@mixin clearfix;
+	
+	&--gutters {
+		margin-right:-64px;
+	}
+	&--gutters > div {
+		padding-right:64px;
+	}
+	
+	&--narrow {
+		margin:auto;
+		max-width:60rem;
+	}
+	
+	@mixin at780 {
+		&__4{
+		float:left;
+		width:33.33%;
+	}
+	&__8{
+		float:left;
+		width:66.66%;
+	}		
+		
+	}
+
+}
+
+.col__header {
+	& h2 {
+		color:$orange7; 
+		font-size: 2rem;
+		margin:0;
+	}
+	&__tagline {
+		color:$blueGrey7;
+		font-size:1.5rem;
+		margin:0;
+	}
