@@ -1,0 +1,12 @@
+.btn {
+	background:$orange5;	
+	color:#fff;
+	font-size:1.5rem;
+	margin:.5rem;
+	padding: .5rem 2rem;
+	border:0;	
+	cursor:pointer;
+}
+.btn:hover {
+	background:$orange7;
+}

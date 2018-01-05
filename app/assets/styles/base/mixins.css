@@ -1,7 +1,7 @@
 @define-mixin at420 {
 	@media (min-width:420px){
 		@mixin-content;
-	}
+	} 
 }
 @define-mixin at540 {
 	@media (min-width:560px){

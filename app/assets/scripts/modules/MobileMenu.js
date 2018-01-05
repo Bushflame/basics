@@ -2,7 +2,7 @@ import $ from 'jquery';
 
 class MobileMenu {
   constructor() {
-
+	  
     this.navwrap = $(".navWrap");
     this.menuIcon = $(".navWrap__menuIcon");
     this.menuContent = $(".mainNav");
