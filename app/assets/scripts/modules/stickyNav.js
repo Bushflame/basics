@@ -58,3 +58,4 @@ class StickyNav {
 		});
 	}
 }
+export default StickyNav;
